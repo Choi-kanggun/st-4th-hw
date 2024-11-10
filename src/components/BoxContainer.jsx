@@ -8,7 +8,7 @@ const Container = styled.div`
 `;
 
 function BoxContainer() {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(-1);
 
   const handleClick = (index) => {
     setActiveIndex(index);
